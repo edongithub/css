@@ -178,8 +178,9 @@ We recommend creating JavaScript-specific classes to bind to, prefixed with `.js
 
 ### Syntax
 
-* Use the `.scss` syntax, never the original `.sass` syntax
+* Use the `.scss.liquid` syntax, never the original `.sass` syntax. 
 * Order your `@extend`, regular CSS and `@include` declarations logically (see below)
+* Use `styles.scss.liquid` as your base SASS file, create all sass partial files within `\assets` (ex: `_mixins.scss`)
 
 ### Ordering of property declarations
 
